@@ -1,2 +1,6 @@
 resources:
   - base/deployment.yaml
+
+images:
+  - name: docker.io/balamaru/test-web
+    newTag: latest
